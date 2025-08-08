@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rutuja Jadhav — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+  <script src="https://kit.fontawesome.com/your_kit_id.js" crossorigin="anonymous"></script>
+  <!-- If you don't have a kit, remove the line above and uncomment the CDN below -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"> -->
+
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home">Rutuja J.</a>
+
+      <button id="menu-btn" aria-label="Toggle menu" class="menu-btn">
+        <span class="burger"></span>
+      </button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="contact.html" class="nav-link contact-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-inner container">
+        <div class="hero-left reveal">
+          <div class="avatar-wrap">
+            <img src="profile.jpg" alt="Rutuja Jadhav" class="avatar">
+            <div class="avatar-glow"></div>
+          </div>
+          <h1>Hi — I'm <span>Rutuja Jadhav</span></h1>
+          <p class="lead">
+            Final-year Engineering student • Aspiring Full-Stack Web Developer • MERN learner
+          </p>
+
+          <div class="hero-actions">
+            <a href="contact.html" class="btn btn-primary">Hire me</a>
+            <a href="#projects" class="btn btn-ghost">View projects</a>
+          </div>
+
+          <ul class="socials">
+            <li><a href="#" title="GitHub"><i class="fa fa-github"></i></a></li>
+            <li><a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#" title="Email"><i class="fa fa-envelope"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="hero-right reveal">
+          <div class="card glass highlight">
+            <h4>Featured</h4>
+            <p><strong>Portfolio Website</strong> — a responsive site built with HTML, CSS, JS. Deployed on GitHub Pages.</p>
+          </div>
+
+          <div class="card glass">
+            <h4>Looking for</h4>
+            <p>Internship / Entry-level role in Frontend or Full-Stack web development.</p>
+          </div>
+
+          <div class="card glass">
+            <h4>Location</h4>
+            <p>Pune, India</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section container">
+      <div class="section-grid">
+        <div class="about-text reveal">
+          <h2>About me</h2>
+          <p>
+            I am a final-year Information Technology student focused on building clean, usable web applications.
+            I enjoy problem-solving, learning new libraries, and shipping projects that I can show to recruiters.
+          </p>
+          <p>
+            Strong foundations in HTML, CSS, JavaScript; learning React and Node.js. Passionate about UX and accessible code.
+          </p>
+
+          <a href="contact.html" class="btn btn-outline">Get in touch</a>
+        </div>
+
+        <div class="about-stats reveal">
+          <div class="stat glass">
+            <h3>8.5</h3>
+            <p>CGPA (Engineering)</p>
+          </div>
+          <div class="stat glass">
+            <h3>85%</h3>
+            <p>HSC</p>
+          </div>
+          <div class="stat glass">
+            <h3>90%</h3>
+            <p>SSC</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section container">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="cards-grid">
+        <article class="edu-card glass reveal">
+          <div class="edu-head">
+            <h3>Bachelor of Engineering (Information Technology)</h3>
+            <span class="edu-date">2021 — 2025</span>
+          </div>
+          <p>XYZ College of Engineering — CGPA: <strong>8.5/10</strong></p>
+          <p class="edu-extra">Relevant coursework: Data Structures, Web Tech, DBMS, ML basics.</p>
+        </article>
+
+        <article class="edu-card glass reveal">
+          <div class="edu-head">
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <span class="edu-date">2019 — 2021</span>
+          </div>
+          <p>ABC Junior College — Perc
